@@ -1,0 +1,2 @@
+ros_astra_camera-master:ros_astra_launch-master
+-DCATKIN_DEVEL_PREFIX=/home/minipc/catkin/devel -DCMAKE_INSTALL_PREFIX=/home/minipc/catkin/install -G Unix Makefiles

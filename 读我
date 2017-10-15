@@ -1,0 +1,13 @@
+1. mkdir -p catkin/src
+2.catkin_make /catkin_init
+3.下载src里面的两个包，放到src里面再catkin_make
+这时候会遇到 缺少libudev的提示 ，所以sudo apt-get install libudev 再空格（这就是zsh的神奇！！），发现缺少 libudev1 libu-dev,两个都给安装上。
+
+4.这时候运行roslaunch astra_launch astra.launch 会发现提示 不能打开设备，那怎么办呢？？？？？注意看 readme文件！！！！！！
+
+2,create astra udev rule
+$ roscd astra_camera && ./scripts/create_udev_rules
+
+这一句话！！！！！运行了之后才能roslaunch astra_launch astra.launch
+
+

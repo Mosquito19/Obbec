@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/minipc/catkin/src/ros_astra_camera-master/include/astra_camera/astra_device_info.h
+ostream
+-
+boost/cstdint.hpp
+-
+
+/home/minipc/catkin/src/ros_astra_camera-master/include/astra_camera/astra_device_manager.h
+astra_camera/astra_device_info.h
+/home/minipc/catkin/src/ros_astra_camera-master/include/astra_camera/astra_camera/astra_device_info.h
+boost/thread/mutex.hpp
+-
+vector
+-
+string
+-
+ostream
+-
+
+/home/minipc/catkin/src/ros_astra_camera-master/include/astra_camera/astra_exception.h
+cstdarg
+-
+cstdio
+-
+exception
+-
+string
+-
+
+/home/minipc/catkin/src/ros_astra_camera-master/src/list_devices.cpp
+iostream
+-
+astra_camera/astra_device_manager.h
+/home/minipc/catkin/src/ros_astra_camera-master/src/astra_camera/astra_device_manager.h
+astra_camera/astra_exception.h
+/home/minipc/catkin/src/ros_astra_camera-master/src/astra_camera/astra_exception.h
+
