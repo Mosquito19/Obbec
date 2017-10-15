@@ -10,4 +10,4 @@ $ roscd astra_camera && ./scripts/create_udev_rules
 
 这一句话！！！！！运行了之后才能roslaunch astra_launch astra.launch
 
-
+5.openni并不是必须安装的
